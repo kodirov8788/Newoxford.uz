@@ -26,7 +26,7 @@ function navbar({ open, setOpen }) {
                         <li className='group  h-full flex items-center px-[10px]  hover:bg-[rgb(100, 100, 100)]'><a href="#" className='text-[15px]  uppercase font-sans  flex  items-center'>Kurslar <span className='ml-[5px]'><HiChevronDown /></span></a>
 
                             {/* drop donw menu */}
-                            <div className='  absolute hidden  group-hover:flex   top-[60px]  bg-[#212121] text-white w-[76%] right-0 list-none   justify-between py-[20px] px-[20px]'>
+                            <div className='  absolute hidden  group-hover:flex   top-[60px]  bg-[#212121] text-white w-[77%] right-0 list-none   justify-between py-[20px] px-[20px]'>
 
                                 <div className='w-[32%]'>
                                     <li className='w-full pl-[15px] hover:bg-[rgb(100,100,100)]'><a className=' inline-block w-full text-[20px] uppercase font-semibold font-sans  py-[7px] mt-[5px]' href="">web dasturlash </a></li>
