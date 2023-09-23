@@ -4,7 +4,7 @@ import Sidebar from './components/sidebar/sidebar'
 function App() {
   const [open, setOpen] = useState(false)
   return (
-    <div className='w-full h-[900px]   '>
+    <div className='w-full overflow-hidden   '>
       <Navbar open={open} setOpen={setOpen} />
     </div>
   )
