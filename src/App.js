@@ -1,9 +1,43 @@
+import I_box from "./components/I_box";
+import Swiper_format from "./components/swiper/Swiper_format";
+import { swiper_data } from "./static_data";
+
+
 
 function App() {
+
+  const getScreenSize = () => {
+    return window.screen.width > 768
+  }
   return (
     <div className="App">
-      <h1>Hello</h1>
+
+
+      {!getScreenSize() ? <Swiper_format /> :
+
+          <div className=" w-full h-[100%] bg-yellow-300 pt-10 pb-10">
+            <h1 className=" text-5xl font-bold text-center text-black">QULAY O'QUV FORMATLARI</h1>
+        < div className="" style={{ width: "90%", margin: "auto", display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap:"50px" }}>
+          
+      {swiper_data.map(data => (
+        <div className=" mt-20">
+          <img key={data.id} style={{ width: "90%", height: "30vh" }} src={data.image} alt="" />
+          <h1 className=" text-black font-bold text-xl mt-5">{data.text_h1}</h1>
+          <p className=" textblack mt-2">{data.text_p}</p>
+        </div>
+
+                
+      ))}
     </div>
+    </div>
+}
+
+
+
+
+
+<I_box />
+    </div >
   );
 }
 
