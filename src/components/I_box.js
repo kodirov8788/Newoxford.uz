@@ -121,11 +121,11 @@ function I_box() {
                     <h1 className=' text-2xl font-semibold text-center sm:text-2xl md:text-4xl lg:text-5xl'>BIZNING TALABALARIMIZ QAYERDA ISHLASHADI</h1>
 
                     <div className="w-full flex flex-wrap items-center justify-evenly m-auto  mt-10 sm:justify-between md:mt-0 md:p-5 md:w-[80%]">
-                        {ishjoyi_data.map(ish => (
+                    {ishjoyi_data.map(ish => (
                             <div key={ish.id} className=" w-[150px] mt-5 md:mt-20 flex items-center justify-center sm:w-[250px]">
                                 <img className='w-[60%] h-[60%] object-cover' src={ish.image} alt="" />
                             </div>
-                        ))}
+                    ))}
                     </div>
 
                 </div>
