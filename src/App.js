@@ -11,8 +11,8 @@ function App() {
   return (
     <div className='w-full     overflow-x-hidden '>
       <Navbar open={open} setOpen={setOpen} />
-      <Footer />
 
+      <Footer />
     </div>
   )
 }

@@ -8,7 +8,7 @@ function navbar({ open, setOpen }) {
 
 
     return (
-        <div className=' w-full h-[60px] bg-[#151515] text-white fixed top-[0px] z-40 '>
+        <div className=' w-full h-[60px] bg-[#151515] text-white fixed top-[0px]  '>
             <div className='w-[85%] xl:w-[88%] h-full  m-auto flex justify-between items-center '>
                 {/* logo */}
                 <div className='w-[10%]  sm:text-3xl md:text-4xl font-semibold font-sans xl:text-2xl'>
@@ -22,11 +22,11 @@ function navbar({ open, setOpen }) {
 
                 <div className=' sm:w-[27%] text-3xl flex justify-between items-center font-sans md:w-[30%] md:text-4xl  xl:w-[85%] '>
 
-                    <ul className='hidden  xl:flex  xl:w-[88%]     justify-between  items-center list-none h-[60px]'>
+                    <ul className=' sm:hidden  xl:flex  xl:w-[88%]     justify-between  items-center list-none h-[60px]'>
                         <li className='group  h-full flex items-center px-[10px]  hover:bg-[rgb(100, 100, 100)]'><a href="#" className='text-[15px]  uppercase font-sans  flex  items-center'>Kurslar <span className='ml-[5px]'><HiChevronDown /></span></a>
 
                             {/* drop donw menu */}
-                            <div className='  absolute hidden  group-hover:flex z-40  top-[60px] bg-[#212121] text-white w-[80%] right-0 list-none   justify-between py-[20px] px-[20px]'>
+                            <div className='  absolute hidden  group-hover:flex   top-[60px] bg-[#212121] text-white w-[80%] right-0 list-none   justify-between py-[20px] px-[20px]'>
 
                                 <div className='w-[32%]'>
                                     <li className='w-full pl-[15px] hover:bg-[rgb(100,100,100)]'><a className=' inline-block w-full text-[18px] uppercase font-semibold font-sans  py-[7px] mt-[5px]' href="">web dasturlash </a></li>
@@ -81,7 +81,7 @@ function navbar({ open, setOpen }) {
                         <div className='text-[#646464]  xl:hidden '>RU</div>
                         <div className=' flex items-center '>
                             <p>UZ</p>
-                            <img className='w-[38px] ml-[4px] sm:hidden   xl:flex' src={img1} alt="" />
+                            <img className='w-[38px] ml-[4px] sm:hidden lg:hidden  xl:flex' src={img1} alt="" />
                         </div>
                     </div>
                     {/* menu button */}
