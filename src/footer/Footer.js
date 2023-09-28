@@ -80,7 +80,7 @@ function Footer() {
             </div>
             <div className='bg-[#0C0C0C] w-full '>
                 <div className='w-[88%]  sm:m-auto lg:flex lg:h-[60px] lg:justify-between  lg:items-center'>
-                <div className=' w-[40%] text-2xl text-center text-white sm:order-2 sm:py-[20px] lg:order-1 lg:w-[20%] lg:text-xl'>
+                <div className=' w-[40%] m-auto text-2xl text-center text-white sm:order-2 sm:py-[20px] lg:m-0 lg:order-1 lg:w-[20%] lg:text-xl'>
                         @PROWEB 2023
                     </div>
                     <div className=' w-[34%] sm:m-auto  list-none flex  justify-between items-center sm:order-1 sm:h-[130px] lg:m-0 lg:w-[22%] lg:order-2 lg:h-[60px] '>

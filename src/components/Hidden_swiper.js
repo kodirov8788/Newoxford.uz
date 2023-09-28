@@ -7,9 +7,9 @@ function Hidden_swiper() {
     return window.screen.width > 768
   }
   return (
-    <div>
+    <div className=' relative z-0 py-10'>
       {!getScreenSize() ? <Swiper_format /> :
-        <div className=" w-full h-[100%] bg-yellow-300 pt-10 pb-10">
+        <div className=" w-full h-[100%] pt-10 pb-10">
           <h1 className=" text-5xl font-bold text-center text-black">QULAY O'QUV FORMATLARI</h1>
           < div className="" style={{ width: "90%", margin: "auto", display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: "50px" }}>
 

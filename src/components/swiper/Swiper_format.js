@@ -36,8 +36,8 @@ export default () => {
             onSwiper={(swiper) => console.log(swiper)}
         >
             {swiper_data.map(data => (
-                <SwiperSlide key={data.id} className=' relative bg-yellow-300'>
-                    <div className=" h-[85vh]  pt-8">
+                <SwiperSlide key={data.id} className=' relative z-0 py-10'>
+                    <div className=" h-[85vh]  pt-8 z-0">
                         <h1 className=' text-black text-2xl text-center font-bold'>QULAY O'QUV FORMATLARI</h1>
                         <img className='' style={{ height: "40vh", width: "90%", margin: "auto", marginTop: "20px", objectFit: "cover" }} src={data.image} alt="" />
                         <h1 className=' w-[90%] m-auto text-xl font-bold text-black mt-3'>{data.text_h1}</h1>

@@ -72,10 +72,8 @@ function I_box() {
                     <div className=" w-full h-full flex items-center justify-evenly px-10">
                         <div className="w-[25%] h-[90%] flex flex-col justify-between">
                             <h1 className=' text-[18px] text-yellow-500'>1. Tanishtiruv dars sanasini tanlang 🠗</h1>
-                            <div className=" w-full h-[90%] p-10 bg-[#212121a4]">
-                                <p className='text-yellow-300'>Afsuski, ushbu yo'nalish bo'yicha guruhlarning tanishtiruv dars hali rejalashtirilmagan.
-
-                                    Ammo siz ro'yxatdan o'tish formasini to'ldirib, o'zingizning ismingiz va raqamingiz qoldirishingiz mumkin va biz sanalar ma'lum bo'lgandan keyin siz bilan bog'lanamiz.</p>
+                            <div className=" w-full h-[90%] p-2 bg-[#212121a4]">
+                                <p className='text-yellow-300 text-[14px] lg:text-[16px]'>Afsuski, ushbu yo'nalish bo'yicha guruhlarning tanishtiruv dars hali rejalashtirilmagan.</p>
                             </div>
                         </div>
 
@@ -110,7 +108,7 @@ function I_box() {
                 <div className="bg-red w-full h-full">
                     <h1 className=' text-2xl text-center font-semibold mt-10 md:text-3xl lg:text-5xl'>2023 YIL NATIJALARI</h1>
                     <div className=" w-full h-[60vh] p-10 sm:h-[70vh] sm:px-20 sm:py-10 md:px-20 md:py-10 md:h-[90vh] lg:h-[95vh]">
-                        <video className='w-[100%] h-full' autoPlay controls src={vid_natija}></video>
+                        <video className='w-full z-10 h-full' autoPlay controls src={vid_natija}></video>
                     </div>
                 </div>
 
