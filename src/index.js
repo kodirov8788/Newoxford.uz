@@ -8,9 +8,8 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        
+
         <Route path='/' element={<App />} />
-        k
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
