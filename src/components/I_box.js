@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import Select from 'react-select';
-import vid_natija from "../video/natija.MP4"
+// import vid_natija from "../video/natija.MP4"
 import { ishjoyi_data } from '../static_data';
 
 const options = [
@@ -108,7 +108,7 @@ function I_box() {
                 <div className="bg-red w-full h-full">
                     <h1 className=' text-2xl text-center font-semibold mt-10 md:text-3xl lg:text-5xl'>2023 YIL NATIJALARI</h1>
                     <div className=" w-full h-[60vh] p-10 sm:h-[70vh] sm:px-20 sm:py-10 md:px-20 md:py-10 md:h-[90vh] lg:h-[95vh]">
-                        <video className='w-full z-10 h-full' autoPlay controls src={vid_natija}></video>
+                        {/* <video className='w-full z-10 h-full' autoPlay controls src={vid_natija}></video> */}
                     </div>
                 </div>
 
@@ -119,11 +119,11 @@ function I_box() {
                     <h1 className=' text-2xl font-semibold text-center sm:text-2xl md:text-4xl lg:text-5xl'>BIZNING TALABALARIMIZ QAYERDA ISHLASHADI</h1>
 
                     <div className="w-full flex flex-wrap items-center justify-evenly m-auto  mt-10 sm:justify-between md:mt-0 md:p-5 md:w-[80%]">
-                    {ishjoyi_data.map(ish => (
+                        {ishjoyi_data.map(ish => (
                             <div key={ish.id} className=" w-[150px] mt-5 md:mt-20 flex items-center justify-center sm:w-[250px]">
                                 <img className='w-[60%] h-[60%] object-cover' src={ish.image} alt="" />
                             </div>
-                    ))}
+                        ))}
                     </div>
 
                 </div>

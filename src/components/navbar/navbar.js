@@ -81,7 +81,7 @@ function navbar({ open, setOpen }) {
                         <div className='text-[#646464]  xl:hidden '>RU</div>
                         <div className=' flex items-center '>
                             <p>UZ</p>
-                            <img className='w-[38px] ml-[4px] sm:hidden lg:hidden  xl:flex' src={img1} alt="" />
+                            <img className='w-[38px] ml-[4px] hidden lg:hidden  xl:flex' src={img1} alt="" />
                         </div>
                     </div>
                     {/* menu button */}
