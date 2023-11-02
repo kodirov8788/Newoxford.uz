@@ -10,12 +10,12 @@ function Footer() {
                 <div className=" sm:w-full list-none py-[20px]   lg:w-[25%]">
                     <h1 className=' text-[20px]  text-white lg:text-[15px]'>Kurslar</h1>
                     <div className=' mt-[10px] lg:mt-0'>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">WEB DASTURLASH</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">INTERNET MARKETING</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">PRO DESIGN</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">3DS MAX & AUTOCAD</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">PYTHON</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">SCRATCH</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">WEB DASTURLASH</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">INTERNET MARKETING</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">PRO DESIGN</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">3DS MAX & AUTOCAD</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">PYTHON</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white  font-sans lg:text-[12px]' href="#">SCRATCH</a></li>
 
                     </div>
 
@@ -25,11 +25,11 @@ function Footer() {
                 <div className=' sm:w-full list-none  py-[15px] lg:w-[25%]'>
                     <h1 className='text-[20px] mt-[10px] lg:mt-0 text-white lg:text-[15px]'>PROWEB markazi haqida</h1>
                     <div className='mt-[10px] lg:mt-0'>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Tanishtiruv dars</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Kovorking</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Barcha bonuslar</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Kontaktlar</a></li>
-                        <li className="" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Ish bilan yordam 2.0</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Tanishtiruv dars</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Kovorking</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Barcha bonuslar</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Kontaktlar</a></li>
+                        <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Ish bilan yordam 2.0</a></li>
 
                     </div>
 
@@ -38,11 +38,11 @@ function Footer() {
                 <div className=' sm:w-full list-none text-[20px]  py-[15px] lg:w-[25%]'>
                     <h1 className='text-[20px] mt-[10px] lg:mt-0 text-white lg:text-[15px]'>Qo'llab-quvvatlash </h1>
                     <div className='mt-[10px] lg:mt-0'>
-                        <li className=''><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Menejerga yozish</a></li>
-                        <li className=''><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Kovorkingga yozilish</a></li>
-                        <li className=''><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Konsultatsiya uchun so'rov</a></li>
-                        <li className=''><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Zoom qo'llanmasi</a></li>
-                        <li className=''><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Shikoyat va tilaklar</a></li>
+                        <li className='my-[10px] xl:my-0'><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Menejerga yozish</a></li>
+                        <li className='my-[10px] xl:my-0'><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Kovorkingga yozilish</a></li>
+                        <li className='my-[10px] xl:my-0'><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Konsultatsiya uchun so'rov</a></li>
+                        <li className='my-[10px] xl:my-0'><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Zoom qo'llanmasi</a></li>
+                        <li className='my-[10px] xl:my-0'><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Shikoyat va tilaklar</a></li>
                     </div>
 
 
@@ -52,9 +52,9 @@ function Footer() {
                 <div className=' sm:w-full list-none  sm:text-center py-[15px] lg:w-[25%] lg:text-start'>
                     <h1 className='text-[20px] mt-[10px] font-serif text-white lg:mt-0  lg:text-[15px]'>Bizning manzilarimiz:</h1>
                     <div className="w-full mt-[10px] lg:mt-0">
-                        <li className='px-[5px] lg:px-0'><a className='font-serif  text-[16px] duration-100 lg:text-[12px] hover:underline hover:text-white' href="#">Toshkent sh. Chilonzor tumani, Bunyodkor ko'chasi, 41</a></li>
-                        <li className=""><a className='font-serif text-[16px] duration lg:text-[12px] hover:underline hover:text-white' href="#">Toshkent sh.  Mirobod tumani,  Oybek ko'chasi,  16</a></li>
-                        <li className=""><a className='font-serif text-[16px] duration-100  hover:underline hover:text-white lg:text-[12px]' href="#">
+                        <li className='my-[10px] xl:my-0 px-[5px] lg:px-0'><a className='font-serif  text-[16px] duration-100 lg:text-[12px] hover:underline hover:text-white' href="#">Toshkent sh. Chilonzor tumani, Bunyodkor ko'chasi, 41</a></li>
+                        <li className="my-[10px] xl:my-0"><a className='font-serif text-[16px] duration lg:text-[12px] hover:underline hover:text-white' href="#">Toshkent sh.  Mirobod tumani,  Oybek ko'chasi,  16</a></li>
+                        <li className="my-[10px] xl:my-0"><a className='font-serif text-[16px] duration-100  hover:underline hover:text-white lg:text-[12px]' href="#">
                             Toshkent sh. Mirobod tumani,  Oybek ko'chasi, 12
                         </a>
                         </li>
