@@ -78,7 +78,7 @@ function navbar({ open, setOpen }) {
 
 
                     <div className=' sm:w-[59%]   flex justify-between md:w-[52%] lg:w-[38%] xl:w-[10%] xl:text-xl'>
-                        <div className='text-[#646464]  xl:hidden '>RU</div>
+                        <div className='text-[#646464] mr-[10px]  xl:hidden '>RU</div>
                         <div className=' flex items-center '>
                             <p>UZ</p>
                             <img className='w-[38px] ml-[4px] hidden lg:hidden  xl:flex' src={img1} alt="" />
