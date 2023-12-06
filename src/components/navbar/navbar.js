@@ -11,7 +11,7 @@ function navbar({ open, setOpen }) {
         <div className=' w-full h-[60px] bg-[#151515] z-40 text-white fixed top-[0px]  '>
             <div className='w-[85%] xl:w-[88%] h-full  m-auto flex justify-between items-center '>
                 {/* logo */}
-                <div className='w-[10%]  sm:text-3xl md:text-4xl font-semibold font-sans xl:text-2xl'>
+                <div className='w-[10%] text-2xl  sm:text-3xl md:text-4xl font-semibold font-sans xl:text-2xl'>
                     <h1 className='text-white'>PROWEB</h1>
                 </div>
 
@@ -78,7 +78,7 @@ function navbar({ open, setOpen }) {
 
 
                     <div className=' sm:w-[59%]   flex justify-between md:w-[52%] lg:w-[38%] xl:w-[10%] xl:text-xl'>
-                        <div className='text-[#646464]  xl:hidden '>RU</div>
+                        <div className='text-[#646464] mr-[10px]  xl:hidden '>RU</div>
                         <div className=' flex items-center '>
                             <p>UZ</p>
                             <img className='w-[38px] ml-[4px] hidden lg:hidden  xl:flex' src={img1} alt="" />
