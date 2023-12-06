@@ -5,7 +5,7 @@ import { FaInstagram, FaTelegram, FaYoutube, FaFacebookF } from "react-icons/fa6
 
 function Footer() {
     return (
-        <div className='w-full  bg-[#151515] text-[#9B9B9B]'>
+        <div className='w-full  bg-[#6382ff] text-[black]'>
             <div className='w-[88%]   m-auto lg:flex  lg:justify-between pb-[30px]  '>
                 <div className=" sm:w-full list-none  sm:mt-[20px] lg:w-[25%]">
                     <h1 className=' text-4xl text-white lg:text-[15px]'>Kurslar</h1>
@@ -70,7 +70,7 @@ function Footer() {
                         </li>
                     </div>
 
-                    <a className=' group py-[20px] text-4xl flex justify-center items-center sm:h-[100px] font-sans text-white lg:text-xl lg:justify-start lg:mt-[30px] lg:h-[40px]' href=""><i className='mr-[20px] '><FiPhoneForwarded /></i> 78 113 01 21</a>
+                    <a className=' group py-[20px] text-4xl flex justify-center items-center sm:h-[100px] font-sans text-black hover:text-white lg:text-xl lg:justify-start lg:mt-[30px] lg:h-[40px]' href=""><i className='mr-[20px] '><FiPhoneForwarded /></i> 78 113 01 21</a>
 
                 </div>
 
@@ -78,11 +78,11 @@ function Footer() {
 
 
             </div>
-            <div className='bg-[#0C0C0C] w-full '>
+            <div className='bg-[#2048e5] w-full '>
                 <div className='w-[88%] flex flex-col items-center  sm:m-auto lg:flex-row lg:h-[60px] lg:justify-between  lg:items-center'>
                     <div className=' sm:w-[40%]   text-2xl text-center text-white sm:order-2 sm:py-[20px] lg:m-0 lg:order-1 lg:w-[20%] lg:text-xl'>
                         <p className='mt-[10px] sm:mt-0'>
-                            @PROWEB 2023
+                            @NEWOXFORD
                         </p>
                     </div>
                     <div className=' w-[50%]  py-[20px] sm:w-[34%]   list-none flex  justify-between items-center sm:order-1 sm:h-[130px] lg:m-0 lg:w-[22%] lg:order-2 lg:h-[60px] '>

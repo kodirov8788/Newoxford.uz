@@ -37,7 +37,7 @@ function I_box() {
             <div className="w-full h-ful">
 
                 {/* Tanishtiruv dars === h1 */}
-                <div className=" w-full h-1/2 bg-[#000000eb]  py-5 ">
+                <div className=" w-full h-1/2 bg-[#2048e5]  py-5 ">
                     <h1 className=' text-center text-2xl font-simebold text-yellow-400 mb-5 md:text-6xl md:font-bold '>
                         TANISHTIRUV DARS
                     </h1>
@@ -48,7 +48,7 @@ function I_box() {
                 </div>
 
                 {/* kurslar ro'yxati === SELECT === */}
-                <div className=" bg-[#000000eb] flex flex-col items-center py-7">
+                <div className=" bg-[#6382ff] flex flex-col items-center py-7">
 
                     <div className=" w-[100%] h-[100%] sm:w-[80%] md:w-[50%] lg:w-[30%] cursor-pointer">
                         <Select
@@ -64,7 +64,7 @@ function I_box() {
                 </div>
 
                 {/* ro'yxatdan o'tish */}
-                <div className="w-full h-[80vh]  bg-black">
+                <div className="w-full h-[80vh]  bg-[#2048e5]">
 
 
                     {/* swiper  royxat */}
@@ -72,7 +72,7 @@ function I_box() {
                     <div className=" w-full h-full flex items-center justify-evenly px-10">
                         <div className="w-[25%] h-[90%] flex flex-col justify-between">
                             <h1 className=' text-[18px] text-yellow-500'>1. Tanishtiruv dars sanasini tanlang 🠗</h1>
-                            <div className=" w-full h-[90%] p-2 bg-[#212121a4]">
+                            <div className=" w-full h-[90%] p-2 bg-[#6382ff]">
                                 <p className='text-yellow-300 text-[14px] lg:text-[16px]'>Afsuski, ushbu yo'nalish bo'yicha guruhlarning tanishtiruv dars hali rejalashtirilmagan.</p>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ function I_box() {
 
                         <div className="w-[30%] h-[90%] flex flex-col justify-between">
                             <h1 className=' text-[18px] text-yellow-500'>2. Tanishtiruv dars vaqtini tanlang</h1>
-                            <div className="w-full h-[90%] p-10 bg-[#0c0c0c]">
+                            <div className="w-full h-[90%] p-10 bg-[#6382ff]">
 
                             </div>
                         </div>
@@ -89,9 +89,9 @@ function I_box() {
                         <div className=" w-[30%] h-[90%] flex flex-col ">
                             <h1 className=' text-[18px] text-yellow-500'>3. Ro'yxatdan o'tish uchun formasini to'ldiring</h1>
 
-                            <input className='  border-b-white border-b-2 bg-transparent py-1 mt-8 text-gray-400' type="text" placeholder='Ism familiya' />
-                            <input className=' border-b-white border-b-2 bg-transparent py-1 mt-8 text-gray-400' type="number" placeholder='Telefon' />
-                            <button className=' w-full bg-gray-600 py-2 mt-10 text-white font-semibold text-xl'>RO’YXATDAN O’TISH</button>
+                            <input className='outline-none  border-b-white border-b-2 bg-transparent py-1 mt-8 text-white placeholder:text-white' type="text" placeholder='Ism familiya' />
+                            <input className='outline-none border-b-white border-b-2 bg-transparent py-1 mt-8 text-white placeholder:text-white' type="number" placeholder='Telefon' />
+                            <button className=' w-full bg-[#6382ff] py-2 mt-10 text-white font-semibold text-xl'>RO’YXATDAN O’TISH</button>
 
 
 

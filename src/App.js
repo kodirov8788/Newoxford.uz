@@ -1,4 +1,5 @@
 import Main from './components/main/Main';
+
 import React, { useState } from 'react'
 import Navbar from './components/navbar/navbar'
 import I_box from "./components/I_box";
