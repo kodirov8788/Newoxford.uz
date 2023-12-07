@@ -23,7 +23,7 @@ function Footer() {
 
 
                 <div className=' sm:w-full list-none  py-[15px] lg:w-[25%]'>
-                    <h1 className='text-[20px] mt-[10px] lg:mt-0 text-white lg:text-[15px]'>PROWEB markazi haqida</h1>
+                    <h1 className='text-[20px] mt-[10px] lg:mt-0 text-white lg:text-[15px]'>NEWOXFORD markazi haqida</h1>
                     <div className='mt-[10px] lg:mt-0'>
                         <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Tanishtiruv dars</a></li>
                         <li className="my-[10px] xl:my-0" ><a className='text-[16px] duration-100 hover:text-white font-sans lg:text-[12px] ' href="#">Kovorking</a></li>
@@ -61,7 +61,6 @@ function Footer() {
                     </div>
 
                     <a className=' group py-[20px] text-4xl flex justify-center items-center sm:h-[100px] font-sans text-black hover:text-white lg:text-xl lg:justify-start lg:mt-[30px] lg:h-[40px]' href=""><i className='mr-[20px] '><FiPhoneForwarded /></i> 78 113 01 21</a>
-                    <a className=' group py-[20px] text-4xl flex justify-center items-center sm:h-[100px] font-sans text-white lg:text-xl lg:justify-start lg:mt-[30px] lg:h-[40px]' href="tel:+932653438"><i className='mr-[20px] '><FiPhoneForwarded /></i> 78 113 01 21</a>
 
                 </div >
 
@@ -69,30 +68,19 @@ function Footer() {
 
 
             </div >
-            <div className='bg-[#2048e5] w-full '>
-                <div className='w-[88%] flex flex-col items-center  sm:m-auto lg:flex-row lg:h-[60px] lg:justify-between  lg:items-center'>
-                    <div className=' sm:w-[40%]   text-2xl text-center text-white sm:order-2 sm:py-[20px] lg:m-0 lg:order-1 lg:w-[20%] lg:text-xl'>
-                        <p className='mt-[10px] sm:mt-0'>
-                            @NEWOXFORD
-                        </p>
-                        <div className='bg-[#0C0C0C] w-full  '>
-                            <div className='w-[88%] flex flex-col items-center  m-auto lg:flex-row lg:h-[60px] lg:justify-between  lg:items-center'>
-                                <div className='text-[22px] uppercase py-[10px] xl:text-3xl'>
-                                    <p>Proweb 2023</p>
-                                </div>
-
-                                <div className='list-none w-[65%] my-[15px]  flex justify-between sm:w-[40%] lg:w-[23%]'>
-                                    <li><a className='text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]' href=""> <i><FaTelegram /></i> </a></li>
-                                    <li><a className='text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]' href=""> <i><FaInstagram /></i></a></li>
-                                    <li><a className='text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]' href=""><i><FaYoutube /></i></a></li>
-                                    <li><a className='text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]' href=""><i><FaFacebookF /></i></a></li>
-                                </div>
-
-                            </div>
-                        </div>
-
-
+            <div className='bg-[#6382ff] w-full  '>
+                <div className='w-[88%] flex flex-col items-center  m-auto lg:flex-row lg:h-[60px] lg:justify-between  lg:items-center'>
+                    <div className='text-[22px] uppercase py-[10px] xl:text-3xl'>
+                        <p>@NEWOXFORD</p>
                     </div>
+
+                    <div className='list-none w-[65%] my-[15px]  flex justify-between sm:w-[40%] lg:w-[23%]'>
+                        <li><a className='text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]' href=""> <i><FaTelegram /></i> </a></li>
+                        <li><a className='text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]' href=""> <i><FaInstagram /></i></a></li>
+                        <li><a className='text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]' href=""><i><FaYoutube /></i></a></li>
+                        <li><a className='text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]' href=""><i><FaFacebookF /></i></a></li>
+                    </div>
+
                 </div>
             </div>
         </div>

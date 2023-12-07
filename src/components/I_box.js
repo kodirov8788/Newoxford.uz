@@ -34,7 +34,7 @@ function I_box() {
 
 
             {/* Tanishtiruv dars */}
-            <div className="w-full h-ful">
+            <div className="w-full ">
 
                 {/* Tanishtiruv dars === h1 */}
                 <div className=" w-full h-1/2 bg-[#2048e5]  py-5 ">
@@ -48,7 +48,10 @@ function I_box() {
                 </div>
 
                 {/* kurslar ro'yxati === SELECT === */}
-                <div className=" bg-[#6382ff] flex flex-col items-center py-7">
+                
+
+                <div className=" bg-[#6382ff] flex flex-col items-center py-7 pl-3 pr-3">
+
 
                     <div className=" w-[100%] h-[100%] sm:w-[80%] md:w-[50%] lg:w-[30%] cursor-pointer">
                         <Select
@@ -64,12 +67,42 @@ function I_box() {
                 </div>
 
                 {/* ro'yxatdan o'tish */}
-                <div className="w-full h-[80vh]  bg-[#2048e5]">
+
+                
+                <div class="w-full h-auto bg-black md:hidden ">
 
 
-                    {/* swiper  royxat */}
 
-                    <div className=" w-full h-full flex items-center justify-evenly px-10">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+                        <div class="bg-[#212121a4] p-4">
+                            <h1 class="text-lg lg:text-xl text-yellow-500">1. Tanishtiruv dars sanasini tanlang 🠗</h1>
+                            <p class="text-sm lg:text-base text-yellow-300">Afsuski, ushbu yo'nalish bo'yicha guruhlarning tanishtiruv dars hali rejalashtirilmagan.</p>
+                        </div>
+                        <div className='p-4'>
+                            <h1 className=' text-[18px] text-yellow-500'>2. Tanishtiruv dars vaqtini tanlang</h1>
+                            <div className="w-full h-[90%] p-10 bg-[#0c0c0c]">
+
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h1 class="text-lg lg:text-xl text-yellow-500">3. Ro'yxatdan o'tish uchun formasini to'ldiring</h1>
+
+                            <input class="w-full border-b-white border-b-2 bg-transparent py-1 mt-4 lg:mt-8 text-gray-400" type="text" placeholder="Ism familiya" />
+                            <input class="w-full border-b-white border-b-2 bg-transparent py-1 mt-4 lg:mt-8 text-gray-400" type="number" placeholder="Telefon" />
+                            <button class="w-full bg-gray-600 py-2 mt-6 lg:mt-10 text-white font-semibold text-xl">RO’YXATDAN O’TISH</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div className="w-full md:h-[80vh]  bg-black">
+
+
+
+                    <div className="hidden  w-full h-full md:flex items-center justify-evenly px-10">
                         <div className="w-[25%] h-[90%] flex flex-col justify-between">
                             <h1 className=' text-[18px] text-yellow-500'>1. Tanishtiruv dars sanasini tanlang 🠗</h1>
                             <div className=" w-full h-[90%] p-2 bg-[#6382ff]">
@@ -103,12 +136,11 @@ function I_box() {
                 </div>
 
 
-
                 {/* Natijalar 2023 */}
                 <div className="bg-red w-full h-full">
                     <h1 className=' text-2xl text-center font-semibold mt-10 md:text-3xl lg:text-5xl'>2023 YIL NATIJALARI</h1>
                     <div className=" w-full h-[60vh] p-10 sm:h-[70vh] sm:px-20 sm:py-10 md:px-20 md:py-10 md:h-[90vh] lg:h-[95vh]">
-                        {/* <video className='w-full z-10 h-full' autoPlay controls src={vid_natija}></video> */}
+                    <iframe className='w-full h-full' src="https://www.youtube.com/embed/dwobrC_YXIA?si=n8TNVXdl7jlhu4Ga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
 
