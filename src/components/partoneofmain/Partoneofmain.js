@@ -7,7 +7,7 @@ import bgvideo from '../../images/bggif.gif'
 function Partoneofmain() {
     return (
         <>
-            <div className="  w-full  h-screen md:h-[75vh]   flex flex-col  items-center justify-center ">
+            <div className="  w-full  h-screen md:h-[75vh]   flex flex-col  items-center justify-center  font-sans">
 
                 <div className="w-full h-full  md:h-[75vh] absolute z-[-1] ">
                     {/* backgrounddagi video */}

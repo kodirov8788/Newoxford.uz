@@ -14,7 +14,7 @@ function Accordion() {
       setSelected(i)
     }
   return (
-    <div className='wrapper' >
+    <div className='wrapper font-sans' >
     <div className='accordion'>
       {data.map((item, i) => (
         <div className="item">

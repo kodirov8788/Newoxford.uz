@@ -5,7 +5,7 @@ import { FaInstagram, FaTelegram, FaYoutube, FaFacebookF } from "react-icons/fa6
 
 function Footer() {
     return (
-        <div className='w-full  bg-[#6382ff] text-[black]'>
+        <div className='w-full  bg-[#6382ff] text-[black] font-sans'>
             <div className='w-[88%]   m-auto lg:flex  lg:justify-between pb-[30px]  '>
                 <div className=" sm:w-full list-none py-[20px]   lg:w-[25%]">
                     <h1 className=' text-[20px]  text-white lg:text-[15px]'>Kurslar</h1>

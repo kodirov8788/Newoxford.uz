@@ -8,7 +8,7 @@ function navbar({ open, setOpen }) {
 
 
     return (
-        <div className=' w-full h-[60px] bg-[#2048e5] z-40 text-white fixed top-[0px]  '>
+        <div className=' w-full h-[60px] bg-[#2048e5] z-40 text-white fixed top-[0px] font-sans '>
             <div className='w-[85%] xl:w-[88%] h-full  m-auto flex justify-between items-center '>
                 {/* logo */}
                 <div className='w-[10%]  sm:text-3xl md:text-4xl font-semibold font-sans xl:text-2xl'>

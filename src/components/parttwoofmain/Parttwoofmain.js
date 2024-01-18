@@ -3,17 +3,19 @@ import { swiper_data } from '../../swiper_static_data'
 
 function Parttwoofmain() {
   return (
-    <div className="overflow-hidden w-full h-[426px] flex flex-wrap justify-around text-black">
+    <div className=" w-full h-[426px] flex items-center justify-center text-black font-sans">
 
-      {swiper_data.map(data => (
-        <div className="bg-center relative overflow-hidden flex justify-center items-center bg-cover w-[25%] group   duration-100  h-[50%] border-[0.5px] border-[#ccc]" key={data.id}>
-          <div className='absolute w-full h-full flex  justify-center group-hover:scale-50 duration-400  items-center bg-[#2048e5] opacity-90'>
-            <h1 className=' text-white text-md text-center md:text-2xl'>{data.title}</h1>
-            {/* <p className='text-white'>{data.text}</p> */}
+      <main class="container mx-auto px-4 py-8 bg-gray-100">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="flex items-center justify-center bg-white p-8">
+            <h1 class="text-4xl font-bold text-blue-600">Bizning Kompaniyamiz</h1>
           </div>
-          <img className='w-[400px] h-[400px] group-hover:scale-125 duration-300 ' src={data.image} alt="" />
+          <div class="bg-gray-200 p-8">
+            <p class="text-gray-800">Bizning kompaniyamiz haqida qisqacha ma'lumotlar.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsam labore vitae sunt dolore quasi sed rerum tempora quas molestiae.</p>
+            <a href="#" class="bg-blue-600 text-white px-4 py-2 mt-4 inline-block rounded hover:bg-blue-800">Batafsil</a>
+          </div>
         </div>
-      ))}
+      </main>
 
     </div>
   )
