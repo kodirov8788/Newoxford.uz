@@ -38,7 +38,7 @@ function Ielts() {
                         </div>
 
                         <div className="w-full h-[90px] flex items-center justify-center group duration-1000 mt-10 hover:bg-blue-600 shadow-lg border shadow-indigo-500/100 rounded-2xl">
-                            <h1 className='md:text-[50px] text-[40px] text-blue-600 group-hover:text-white duration-1000 hover:text-white'>ELTS Pro</h1>
+                            <h1 className='md:text-[50px] text-[40px] text-blue-600 group-hover:text-white duration-1000 hover:text-white'>IELTS Pro</h1>
                         </div>
 
                         <div className="w-full h-[90px] flex items-center justify-center group duration-1000 mt-10 hover:bg-blue-600 shadow-lg border shadow-indigo-500/100 rounded-2xl">

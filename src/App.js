@@ -15,7 +15,7 @@ function App() {
     <div className="w-full overflow-hidden font-sans">
       <Navbar open={open} setOpen={setOpen} />
       <Main />
-      <Manzil/>
+      <Manzil/> 
       <Accordion />
       <Footer />
     </div>
