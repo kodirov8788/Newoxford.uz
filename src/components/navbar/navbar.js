@@ -3,6 +3,7 @@ import { HiMenu, HiChevronDown } from "react-icons/hi";
 import { HiXMark } from "react-icons/hi2";
 import img1 from "./flag.png";
 import { Link } from "react-scroll";
+import Logo from "../../images/logo1 (2).2.2.png"
 
 function navbar({ open, setOpen }) {
   return (
@@ -10,35 +11,35 @@ function navbar({ open, setOpen }) {
       <div className="w-[85%] xl:w-[88%] h-full  m-auto flex justify-between items-center ">
         {/* logo */}
         <div className="w-[10%]  sm:text-3xl md:text-4xl font-semibold font-sans xl:text-2xl">
-          <h1 className="text-white">OXFORD</h1>
+          <img src={Logo} alt="" />
         </div>
 
         {/* tarjima */}
 
         <div className=" sm:w-[27%] text-3xl flex justify-between items-center font-sans md:w-[30%] md:text-4xl  xl:w-[85%] ">
-          <ul className="hidden xl:flex  xl:w-[50%] mx-auto gap-5 justify-center  items-center list-none h-[60px] text-xl">
+          <ul className="hidden xl:flex  xl:w-[50%] mx-auto gap-5 justify-center cursor-pointer items-center list-none h-[60px] text-xl">
             <li>
-              <Link to="bizHaqimizda" smooth duration={200}>
-                Biz Haqimizda
+              <Link to="bizHaqimizda" smooth duration={700}>
+                Biz haqimizda
               </Link>
             </li>
             <li>
-              <Link to="kurslarimiz" smooth duration={200}>
+              <Link to="kurslarimiz" smooth duration={700}>
                 Kurslarimiz
               </Link>
             </li>
             <li>
-              <Link to="karyera" smooth duration={200}>
+              <Link to="karyera" smooth duration={700}>
                 Karyera
               </Link>
             </li>
             <li>
-              <Link to="manzil" smooth duration={200}>
+              <Link to="manzil" smooth duration={700}>
                 Manzil
               </Link>
             </li>
             <li>
-              <Link to="fikrlar" smooth duration={200}>
+              <Link to="fikrlar" smooth duration={700}>
                 Fikrlar
               </Link>
             </li>

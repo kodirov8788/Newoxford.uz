@@ -3,7 +3,7 @@ import { swiper_data } from '../../swiper_static_data'
 
 function Parttwoofmain() {
   return (
-    <div className=" w-full h-[426px] flex items-center justify-center text-black font-sans">
+    <div className=" w-full h-[426px] flex items-center justify-center text-black font-sans" name="bizHaqimizda">
 
       <main class="container mx-auto px-4 py-8 bg-gray-100">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">

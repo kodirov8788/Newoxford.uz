@@ -5,6 +5,7 @@ import Navbar from './components/navbar/navbar'
 import Footer from './footer/Footer';
 import Accordion from "./Accordion/Accordion"
 import Manzil from './components/Manzil/Manzil';
+import Fikrlar from './components/Fikrlar/Fikrlar';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Navbar open={open} setOpen={setOpen} />
       <Main />
       <Manzil/> 
+      <Fikrlar/>
       <Accordion />
       <Footer />
     </div>
