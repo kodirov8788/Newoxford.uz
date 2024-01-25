@@ -4,11 +4,11 @@ function Fikrlar() {
   return (
     <div name="fikrlar" className="pt-20">
       <div>
-        <h1 className="lg:text-5xl xl:text-6xl text-center font-mono font-semibold mt-3">
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-center font-mono font-semibold mt-3">
           Fikrlar
         </h1>
       </div>
-      <div className="flex justify-center gap-20 mt-10">
+      <div className="flex justify-center gap-20 mt-10 flex-wrap">
         <div className="w-96  p-5 bg-[#5770d5] text-white text-lg">
           <p className="">
             Men xam oʻz ishini mutaxassisi ustozlar yordamida farzandim bu

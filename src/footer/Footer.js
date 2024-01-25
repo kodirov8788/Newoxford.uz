@@ -17,7 +17,8 @@ function Footer() {
           <li>
             <a
               className="text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]"
-              href=""
+              href="https://t.me/newOXFORDuz"
+              target="_blank"
             >
               {" "}
               <i>
@@ -28,7 +29,8 @@ function Footer() {
           <li>
             <a
               className="text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]"
-              href=""
+              href="https://www.instagram.com/newoxforduz/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+              target="_blank"
             >
               {" "}
               <i>
@@ -39,20 +41,11 @@ function Footer() {
           <li>
             <a
               className="text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]"
-              href=""
+              href="https://www.youtube.com/@newOXFORDuz"
+              target="_blank"
             >
               <i>
                 <FaYoutube />
-              </i>
-            </a>
-          </li>
-          <li>
-            <a
-              className="text-[40px] duration-100 text-[#C1C1C1] hover:text-white lg:text-[30px]"
-              href=""
-            >
-              <i>
-                <FaFacebookF />
               </i>
             </a>
           </li>
