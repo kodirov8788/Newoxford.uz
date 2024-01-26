@@ -6,6 +6,7 @@ import Footer from './footer/Footer';
 import Accordion from "./Accordion/Accordion"
 import Manzil from './components/Manzil/Manzil';
 import Fikrlar from './components/Fikrlar/Fikrlar';
+import Karyera from './components/Karyera/Karyera';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <div className="w-full overflow-hidden font-sans">
       <Navbar open={open} setOpen={setOpen} />
       <Main />
+      <Karyera />
       <Manzil/> 
       <Fikrlar/>
       <Accordion />

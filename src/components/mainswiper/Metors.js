@@ -65,7 +65,7 @@ function Metors() {
     let width = window.innerWidth
     return (
         <div data-aos="fade-up" className='carousel'>
-            <h3 className='text-black'>OXFORD O'QITUVCHILARI</h3>
+            <h3 className='text-black mt-7'>OXFORD O'QITUVCHILARI</h3>
             <br />
             <Swiper
                 slidesPerView={width > 1400 ? 5 : width > 1000 ? 4 : width > 700 ? 3 : width > 410 ? 2 : 1}
