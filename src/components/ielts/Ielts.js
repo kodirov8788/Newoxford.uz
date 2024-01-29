@@ -34,7 +34,7 @@ function Ielts() {
                             <h1 className='md:text-[45px] text-[35px] text-blue-600 font-bold '>IELTS</h1>
                         </div>
                         <div className="w-full h-[90px] flex items-center justify-center duration-1000 group hover:bg-blue-600 mt-5 shadow-lg border shadow-indigo-500/100 rounded-2xl">
-                            <h1 className='md:text-[50px] text-[32px] text-blue-600 duration-1000 group-hover:text-white'>IELTS Foundation</h1>
+                            <h1 className='md:text-[40px] text-[32px] text-blue-600 duration-1000 group-hover:text-white'>IELTS Foundation</h1>
                         </div>
 
                         <div className="w-full h-[90px] flex items-center justify-center group duration-1000 mt-10 hover:bg-blue-600 shadow-lg border shadow-indigo-500/100 rounded-2xl">
