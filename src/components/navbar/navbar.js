@@ -10,7 +10,7 @@ function navbar({ open, setOpen }) {
     <div className=" w-full h-[60px] bg-[#2048e5] z-40 text-white fixed top-[0px]  ">
       <div className="w-[85%] xl:w-[88%] h-full  m-auto flex justify-between items-center ">
         {/* logo */}
-        <div className="w-[10%]">
+        <div className="w-[40%] sm:w-[10%]">
           <img src={Logo} alt="" />
         </div>
 
@@ -34,18 +34,18 @@ function navbar({ open, setOpen }) {
               </Link>
             </li>
             <li>
-              <Link to="manzil" smooth duration={700}>
-                Manzil
-              </Link>
-            </li>
-            <li>
               <Link to="fikrlar" smooth duration={700}>
                 Fikrlar
               </Link>
             </li>
+            <li>
+              <Link to="manzil" smooth duration={700}>
+                Manzil
+              </Link>
+            </li>
           </ul>
 
-          <div className="sm:w-[59%] flex justify-between md:w-[52%] lg:w-[38%] xl:w-[10%] xl:text-xl">
+          <div className="sm:w-[59%] flex justify-between md:w-[52%] lg:w-[38%] xl:w-[10%] xl:text-lg">
             <div className="text-[#646464] mr-[10px]  xl:hidden ">RU</div>
             <div className=" flex items-center ">
               <p>UZ</p>
@@ -88,10 +88,10 @@ function navbar({ open, setOpen }) {
             ? { transform: "translateX(-0px)" }
             : { transform: "translateX(100%)" }
         }
-        className=" w-full  sm:h-[650px] md:h-[600px] pb-[40px] sm:overflow-y-scroll  duration-1000 sm:w-[100%]  absolute  bg-[#151515] top-[60px] lg:w-[45%] lg:right-0  lg:h-screen "
+        className=" w-full h-screen sm:h-[650px] md:h-[600px] pb-[40px] sm:overflow-y-scroll  duration-1000 sm:w-[100%]  absolute  bg-[#151515] top-[60px] lg:w-[45%] lg:right-0  lg:h-screen "
       >
-        <div className=" list-none transform-y-[50px] py-[20px] uppercase">
-          <li className="group w-full  py-[15px] mt-[10px]  pl-[70px] uppercase md:text-2xl font-semibold">
+        <div className=" list-none transform-y-[50px] py-[20px] uppercase ">
+          <li className="group w-full   py-[15px] mt-[10px]  pl-[70px] uppercase md:text-2xl font-semibold">
             <Link to="bizHaqimizda" smooth duration={200}>
               Biz Haqimizda
             </Link>

@@ -18,8 +18,8 @@ function App() {
       <Navbar open={open} setOpen={setOpen} />
       <Main />
       <Karyera />
-      <Manzil/> 
       <Fikrlar/>
+      <Manzil/> 
       <Accordion />
       <Footer />
     </div>
