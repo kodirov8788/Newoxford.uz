@@ -1,7 +1,6 @@
 import Main from './components/main/Main';
 import React, { useState } from 'react'
 import Navbar from './components/navbar/navbar'
-
 import Footer from './footer/Footer';
 import Accordion from "./Accordion/Accordion"
 import Manzil from './components/Manzil/Manzil';

@@ -41,7 +41,7 @@ function Ielts() {
             </div>
           </div>
           <div className="md:w-[50%]  w-full md:h-full h-[700px] flex items-center justify-center pt-5 pb-5 ">
-            <div className="w-[90%] h-full bg-white shadow-lg border shadow-indigo-500/100 rounded-2xl pt-5 pl-8 pr-8">
+            <div className="w-[90%] h-[59%] bg-white shadow-lg border shadow-indigo-500/100 rounded-2xl pt-5 pl-8 pr-8">
               <div className="w-full h-[70px] flex items-center justify-center ">
                 <h1 className="md:text-[40px] text-[35px] text-blue-600 ">
                   IELTS

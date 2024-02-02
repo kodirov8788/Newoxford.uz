@@ -10,10 +10,7 @@ function Fikrlar() {
         </h1>
       </div>
       <div className="flex justify-center gap-20 mt-10 flex-wrap">
-        <div className="w-96 p-5 bg-[#5770d5] text-white text-lg relative">
-          {/* <div className="flex justify-center">
-            <GoPerson className="w-10 h-10 absolute -mt-9 bg-[#5770d5] rounded-full" />
-          </div> */}
+        <div className="w-96 p-5 bg-[#5770d5] text-white text-lg relative rounded-b-xl rounded-tr-xl">
           <div>
             <p className="">
               Men xam oʻz ishini mutaxassisi ustozlar yordamida farzandim bu
@@ -23,7 +20,7 @@ function Fikrlar() {
             </p>
           </div>
         </div>
-        <div className="w-96  p-5 bg-[#5770d5] text-white text-lg">
+        <div className="w-96  p-5 bg-[#5770d5] text-white text-lg rounded-b-xl rounded-tr-xl">
           <p className="">
             Xamma sharoitlari zo'r Ustozlari malakali xozir o'g'lim engliz
             tilida kitob o'qisa nutqini ko'rib juda xursand bo'laman Oydina
